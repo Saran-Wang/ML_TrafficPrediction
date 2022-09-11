@@ -1,0 +1,2 @@
+# ML_TrafficPrediction
+The objective of this project is to predict short-term future traffic volume, directions, and speed on a high-res (750m * 675m) map of Chicago. We developed the traffic prediction model based on the U-Net model, which is a simple structure for pixel-wise outputs. The mean absolute error of predictions of each pixel after training was 6.8681. The spatial distribution of predicted speeds was close to the ground truth; the predicted volumes were close to zero at most pixels, while ground-truth volumes were also close to zero.
